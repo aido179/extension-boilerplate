@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Extension Boilerplate",
+  "description": "A boilerplate repo for chrome extensions.",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click to open extension"
+  },
+
+  "permissions": [
+          "tabs","storage"
+        ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
