@@ -1,0 +1,13 @@
+#extension_content{
+  position:fixed;
+  width:200px;
+  height:100px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: solid black 3px;
+  z-index: 9999;
+  padding: 2em;
+  text-align: center;
+}
